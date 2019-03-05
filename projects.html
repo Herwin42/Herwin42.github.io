@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>a pagefor stuff</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+	    <nav>
+				<table><tr><td><a href="home.html"> Home Page </a></td><td><a href="projects.html"> Projects </a></td><td><a href=http://www.republiquedesmangues.fr/">Important Things to Remember</a></td></tr></table>
+		</nav>
+		<button class="accordion">Project 1</button>
+		<div class="panel">
+			<h2>HTML</h2><br><p>The first project was this one, making a webpage.</p>
+		</div>
+		<br>
+		<button class="accordion">Project 2</button>
+		<div class="panel">
+			<p>stuff</p>
+		</div>
+		<br>
+		<button class="accordion">Project 3</button>
+		<div class="panel">
+			<p>stuff</p>
+		</div>
+		<br>
+		<button class="accordion">Project 4</button>
+		<div class="panel">
+			<p>stuff</p>
+		</div>
+		<br>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Gnome-computer.svg">
+		<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.display === "block") {
+		panel.style.display = "none";
+		} else {
+		panel.style.display = "block";
+		}
+		});		
+		}
+	</script>
+		
+    </body>
+</html>

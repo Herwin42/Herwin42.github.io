@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Press+Start+2P|Teko');
+@import url('https://fonts.googleapis.com/css?family=Mogra|Yatra+One');
+
+body {
+   
+	background: rgb(51, 204, 255);
+	margin: 1
+	
+}
+p {
+	margin-left: 10px;
+}
+nav {
+	color: white;
+	text-decoration: none;
+	font-family: 'Yatra', cursive;
+	background-color:rgb(0, 0, 102);
+	margin: 1
+	
+}
+table {
+	 width:100%
+}
+a {
+	color:white;
+	text-decoration:none;
+	font-family: 'Yatra', cursive;
+}
+a:hover {
+	color:blue;
+	text-decoration:none;
+}
+h1 {
+	font-family: 'Mogra', cursive;
+}
+.accordion {
+    background-color:rgb(51, 153, 255);
+	color: rgb(0, 102, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 28px;
+	font-family: 'Mogra', cursive;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color:white;
+	color:blue;
+}
